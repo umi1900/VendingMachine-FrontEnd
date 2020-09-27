@@ -1,0 +1,87 @@
+<div style="height: 100px;width:auto;margin-top: -30px; background-color: rgb(70, 128, 204);">
+
+  <h1 style="text-align: center; color: white; font-size: 52px;">Vending Machine</h1>
+  
+  </div>
+  
+  
+  <div style="margin-left:120px;height:440px; width: 320px; float:left;">
+    <img style="margin-left: 100px; margin-top: 130px;"  height='210' width="210" src="assets/q.jpeg" alt="Noy" (click)="getQuarter()">
+  
+   <h2 style="margin-left: 150px;"> Total = $ {{total}}</h2>
+  
+  
+
+
+<button style="height: 60px;width: 120px;margin-left: 120px;"  type="submit"  value="submit"  (click)="getChange()">
+ Get Change  </button>
+  </div>
+  
+  
+  
+  
+  <div  style="margin-right:20px;height:520px; width: 720px; float: right;">
+  
+    <table style="width: 100%; height: 100%;">
+        <tr style="text-align: center;">   
+  <td>  
+    
+    <h2 style="text-align: center; color: rgb(243, 4, 4);"> $ 1.25</h2>
+    <img height='110' width="120" src="assets/p1.jpeg" alt="Noy"  (click)="soldS1()">
+    <h3 style="text-align: center; color: rgb(2, 1, 1);">{{sodas[0].qty}}</h3>
+  </td>
+    
+  
+  
+  <td> 
+    
+    <h2 style="text-align: center; color: rgb(243, 4, 4);"> $ 1.25</h2>
+    <img height='110' width="100" src="assets/p2.jpeg" alt="Noy"  (click)="soldS2()">
+    <h3 style="text-align: center; color: rgb(2, 1, 1);"> {{sodas[1].qty}}</h3>
+  
+  
+  </td>
+  <td> 
+    
+    
+    <h2 style="text-align: center; color: rgb(243, 4, 4);"> $ 1.25</h2>
+    <img height='110' width="120" src="assets/p3.jpeg" alt="Noy"  (click)="soldS3()">
+  
+    <h3 style="text-align: center; color: rgb(2, 1, 1);"> {{sodas[2].qty}}</h3>
+  </td>
+  
+  </tr>
+        
+  <tr style="text-align: center;">   
+    <td>   
+      
+    <h2 style="text-align: center; color: rgb(243, 4, 4);"> $ 1.25</h2>
+      <img height='110' width="120" src="assets/p4.jpeg" alt="Noy"  (click)="soldS4()">
+    
+      <h3 style="text-align: center; color: rgb(2, 1, 1);"> {{sodas[3].qty}}</h3>
+    
+    
+    </td>
+    
+    <td>
+      
+    <h2 style="text-align: center; color: rgb(243, 4, 4);"> $ 1.25</h2>
+      <img height='110' width="120" src="assets/p5.jpeg" alt="Noy"  (click)="soldS5()"> 
+    
+      <h3 style="text-align: center; color: rgb(2, 1, 1);"> {{sodas[4].qty}}</h3>
+    </td>
+    <td> 
+      
+    <h2 style="text-align: center; color: rgb(243, 4, 4);"> $ 1.25</h2>
+      
+      <img height='110' width="120" src="assets/p6.jpeg" alt="Noy"  (click)="soldS6()"> 
+    
+      <h3 style="text-align: center; color: rgb(2, 1, 1);"> {{sodas[5].qty}}</h3>
+    </td>
+    
+    </tr>
+  
+    </table>
+  
+    
+    </div>
